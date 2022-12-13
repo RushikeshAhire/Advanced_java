@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+<!--  	<bean id="greet2" class="example.spring.core.WelcomeService"/>-->
+	<bean id="greet" class="example.spring.core.HelloService"/>
+	
+<!-- 
+	<bean id="user1" class="example.spring.core.UserService" lazy-init="true">
+		<property name="firstName" value="James"/>
+		<property name="lastName" value="Bond"/>
+		<property name="age" value="75"/>
+	</bean>    
+	
+	<bean id="user2" class="example.spring.core.UserService">
+		<constructor-arg value="70" index="2"/>
+		<constructor-arg value="Rod" index="0"/>
+		<constructor-arg value="Johnson" index="1"/>		
+	</bean>
+	
+	 Declaring a bean of type Printer  
+	<bean id="printer1" class="example.spring.core.Printer">
+		<property name="make" value="HP"/>
+		<property name="type" value="Ink Jet"/>
+	</bean>
+	 Declaring another bean of type Printer  
+	<bean id="printer2" class="example.spring.core.Printer">
+		<property name="make" value="Sony"/>
+		<property name="type" value="Desk Jet"/>
+	</bean>
+	
+	Declaring a bean of type PrinterService 
+	<bean id = "prnService" class="example.spring.core.PrinterService">
+		<property name="content" value="Lunch Break?"/>
+		<property name="currentPrinter" ref="printer2"/>
+	</bean> 
+ -->	
+</beans>
+
+
+
+
+
+
